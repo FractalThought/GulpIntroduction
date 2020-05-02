@@ -1,8 +1,53 @@
+header {
+  background: #2c60c7;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 100px;
+  padding: 20px 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-container img {
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a + a {
+  margin-left: 10px;
+}
+
 .hero-section {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+}
+
+.hero__info {
+  margin-right: 40px;
+}
+
+.hero__info h1 {
+  font-size: 2.25rem;
+  font-family: "Poppins", san-serif;
+}
+
+.hero__info p {
+  font-size: 1.5rem;
 }
 
 .wave {
