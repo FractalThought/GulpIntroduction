@@ -6,7 +6,7 @@
 }
 
 .wave {
-  background: url(https://svgshare.com/i/K_z.svg);
+  background: url(../img/wave.svg);
   max-width: 100%;
   background-size: cover;
   height: 200px;
@@ -29,8 +29,7 @@
   text-decoration: none;
   padding: 1rem;
   color: #fff;
-  background: url(https://svgshare.com/i/KcP.svg) no-repeat bottom 20px right
-      20px,
+  background: url(../img/icon-prog1.svg) no-repeat bottom 20px right 20px,
     linear-gradient(241.95deg, #244fa3 0%, #2590a7 100%);
   border-radius: 25px;
   height: 300px;
@@ -42,7 +41,6 @@
 }
 
 .course-card:hover {
-  /*   transform: scale(1.025) translateY(-5px); */
   transform: scale(1.025);
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
 }
@@ -53,15 +51,18 @@
 }
 
 .course-card--webb {
-  background: linear-gradient(241.95deg, #6e663a 0%, #899950 100%);
+  background: url(../img/icon-webb1.svg) no-repeat bottom 20px right 20px,
+    linear-gradient(241.95deg, #6e663a 0%, #899950 100%);
 }
 
 .course-card--digi {
-  background: linear-gradient(241.95deg, #7f2c1c 0%, #8e4f1f 100%);
+  background: url(../img/icon-digi1.svg) no-repeat bottom 20px right 20px,
+    linear-gradient(241.95deg, #7f2c1c 0%, #8e4f1f 100%);
 }
 
 .course-card--daona {
-  background: linear-gradient(241.95deg, #4f633b 0%, #588b76 100%);
+  background: url(../img/icon-don1.svg) no-repeat bottom 20px right 20px,
+    linear-gradient(241.95deg, #4f633b 0%, #588b76 100%);
 }
 
 .course-card__heading {
