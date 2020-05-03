@@ -40,6 +40,8 @@ function watch() {
     },
   });
 
+  images();
+
   gulp.watch("./*.html", layouts);
   gulp.watch("js/*.js", scripts);
   gulp.watch("css/*.css", styles);

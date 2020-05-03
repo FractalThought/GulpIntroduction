@@ -1,3 +1,10 @@
-const container = document.querySelector(".course-card-container");
+const courseCards = document.querySelectorAll(".course-card");
 
-// Not sure
+courseCards.forEach((card) => {
+  card.addEventListener("click", SendAlert);
+});
+
+function SendAlert(event) {
+  event.preventDefault();
+  alert("lol");
+}

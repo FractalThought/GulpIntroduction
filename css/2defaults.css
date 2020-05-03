@@ -1,6 +1,10 @@
 :root {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+
+  --white: #fff;
+  --primary-600: #2c60c7;
+  --gray-300: #e6e7ea;
 }
 
 img {

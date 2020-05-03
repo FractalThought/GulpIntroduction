@@ -1,6 +1,6 @@
 header {
-  background: #2c60c7;
-  color: #fff;
+  background: var(--primary-600);
+  color: var(--white);
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -23,7 +23,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 nav a + a {
@@ -59,7 +59,7 @@ nav a + a {
 }
 
 .course-card-container {
-  background: #e6e7ea;
+  background: var(--gray-300);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-auto-rows: minmax(250px, 1fr);
@@ -73,7 +73,7 @@ nav a + a {
   flex-direction: column;
   text-decoration: none;
   padding: 1rem;
-  color: #fff;
+  color: var(--white);
   background: url(../img/icon-prog1.svg) no-repeat bottom 20px right 20px,
     linear-gradient(241.95deg, #244fa3 0%, #2590a7 100%);
   border-radius: 25px;
@@ -111,7 +111,7 @@ nav a + a {
 }
 
 .course-card__heading {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: bold;
   font-family: "Poppins", san-serif;
 }
